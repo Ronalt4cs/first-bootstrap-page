@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Prática 14</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header class="bg-primary text-white text-center py-3">
+    <h1>Containers com BootStrap</h1>
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#secao1">Seção 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#secao2">Seção 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#secao3">Seção 3</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <section id="secao1" class="mb-4">
+      <h2>Seção 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quo quae quis. Provident debitis veniam, quae
+        soluta laborum neque eveniet, minus ipsum repudiandae voluptatem illo. Voluptas architecto iure placeat totam.
+      </p>
+    </section>
+
+    <section id="secao2" class="mb-4">
+      <h2>Seção 2</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium nisi pariatur delectus sit tempore culpa
+        explicabo ratione exercitationem mollitia a iusto architecto quam, voluptas neque voluptate omnis expedita vel.
+        Vitae.
+      </p>
+    </section>
+
+    <section id="secao3" class="mb-4">
+      <h2>Seção 3</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A deserunt unde officiis pariatur expedita nemo rerum
+        quisquam odit minus dicta, aliquid magni animi. Facere reprehenderit voluptate ad suscipit distinctio tenetur?
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center py-3">
+    <p>&copy; <span id="ano"></span> Atividade Prática 10 - Containers com BootStrap. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
